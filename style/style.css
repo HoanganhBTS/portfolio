@@ -311,10 +311,79 @@ header .logo a {
   margin-top: 20px;
   font-size: 40px;
 }
+
 .vt-title{
   display: flex;
   justify-content: center;
 }
+
+.section-vt {
+  color: #333; /* Couleur de texte sombre pour un bon contraste */
+  font-family: 'Arial', sans-serif; /* Police de caractères moderne et lisible */
+  padding: 20px; /* Espacement intérieur pour ne pas coller aux bords */
+  line-height: 1.6; /* Espacement des lignes pour améliorer la lisibilité */
+}
+
+.vt-title h1 {
+  color: #025f7c; /* Couleur spécifique pour les titres principaux */
+  text-align: center; /* Centrage du titre principal */
+  padding-bottom: 10px; /* Espacement en dessous du titre */
+}
+
+.vt-description h4,
+.vt-outil h4,
+.vt-sujet h4 {
+  color: #014d66; /* Couleur pour les sous-titres, un peu plus sombre que le titre principal */
+  margin-top: 20px; /* Espacement au-dessus des sous-titres */
+}
+
+.vt-description p,
+.vt-outil p,
+.vt-sujet p,
+.vt-sujet div p {
+  text-align: justify; /* Justification du texte pour une présentation uniforme */
+  margin-bottom: 10px; /* Espacement en dessous des paragraphes */
+}
+
+.vt-outil ul {
+  list-style-type: square; /* Style de puce pour les listes */
+  margin-left: 20px; /* Décalage à gauche pour la liste */
+}
+.vt-box {
+  display: flex;
+  justify-content: space-between; /* Assure un espacement uniforme entre les éléments */
+  align-items: start; /* Alignement vertical des éléments en haut */
+  flex-wrap: wrap; /* Permet aux éléments de passer à la ligne suivante si nécessaire */
+}
+
+.vt-theme {
+  width: 48%; /* 48% pour laisser de la place pour l'espacement, ajustez selon les besoins */
+  box-sizing: border-box; /* Inclut padding et border dans la largeur */
+}
+
+.vt-theme img {
+  max-width: 100%; /* Les images ne dépassent pas leur conteneur */
+  height: 300px; /* Hauteur automatique pour maintenir l'aspect ratio */
+  margin-bottom: 10px; /* Espacement sous les images */
+}
+
+.vt-sujet a {
+  color: #025f7c; /* Couleur des liens pour s'accorder avec le thème */
+  text-decoration: none; /* Pas de soulignement pour les liens */
+}
+
+.wave {
+  overflow: hidden; /* Cache les parties extérieures des SVG si nécessaire */
+}
+
+iframe {
+  border: none; /* Retire la bordure autour de l'iframe */
+  width: 100%; /* Largeur complète dans son conteneur */
+  max-width: 400px; /* Largeur maximale pour l'iframe */
+  height: 310px; /* Hauteur fixe pour l'iframe */
+  margin-bottom: 20px; /* Espacement en dessous de l'iframe */
+}
+
 .section-contact{
   display: flex;
   flex-direction: column;
@@ -366,5 +435,6 @@ header .logo a {
   font-family: "Montserrat", sans-serif;
   border-radius: 4px;
 }
+
 
 
